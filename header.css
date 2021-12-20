@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+header {
+    background-color: #292929;
+    overflow: hidden;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    width: 45.5%;
+    display: table;
+    margin: 0 auto;
+    transform: translateY(-50%);
+}
+
+nav a {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    color: #949494;
+    text-decoration: none;
+    font-family: 'Roboto Condensed' , sans-serif;
+    font-size: 23px;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+}
+
+nav a:before, nav a:after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease transform;
+}
+
+nav a:before {
+    top: 0;
+    left: 10px;
+    width: 6px;
+    height: 6px;
+}
+
+nav a:after {
+    top: 5px;
+    left: 18px;
+    width: 4px;
+    height: 4px
+}
+
+nav a:nth-child(1):before {
+    background-color: #250593;
+}
+
+nav a:nth-child(1):after {
+    background-color: #F2037C;
+}
+
+nav a:nth-child(2):before {
+    background-color: #250593;
+}
+
+nav a:nth-child(2):after {
+    background-color: #F2037C;
+}
+
+nav a:nth-child(3):before {
+    background-color: #250593;
+}
+
+nav a:nth-child(3):after {
+    background-color: #F2037C;
+}
+
+nav a:nth-child(4):before {
+    background-color: #250593;
+}
+
+nav a:nth-child(4):after {
+    background-color: #F2037C;
+}
+
+#indicator {
+    position: absolute;
+    left: 1%;
+    bottom: 0;
+    width: 30px;
+    height: 3px;
+    background-color: rgb(196, 196, 196);
+    border-radius: 5px;
+    transition: 0.2s ease left;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+nav a:hover:before, nav a:hover:after {
+    transform: scale(1);
+}
+
+nav a:nth-child(1):hover ~ #indicator {
+    left: 6%;
+    background: linear-gradient(130deg, #250593, #F2037C);
+}
+
+nav a:nth-child(2):hover ~ #indicator {
+    left: 35%;
+    background: linear-gradient(130deg, #250593, #F2037C);
+}
+
+nav a:nth-child(3):hover ~ #indicator {
+    left: 61%;
+    background: linear-gradient(130deg, #250593, #F2037C);
+}
+
+nav a:nth-child(4):hover ~ #indicator {
+    left: 81%;
+    background: linear-gradient(130deg, #250593, #F2037C);
+}
+
+
+

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url("Assets/index1.jpg");
+    height: 1023px;
+    text-align: center;
+}
+
+.p_accueil {
+    color: white;
+    font-family: 'Raleway Dots';
+    font-size: 46px;
+    padding-top: 13px;
+}
+
+#p_neon {
+    text-shadow: 
+    0 0 2px white,
+    0 0 6px white,
+    0 0 12px white,    
+    0 0 24px #F2037C;        
+}
+
+#p_neon2 {
+    text-shadow: 
+    0 0 2px white,
+    0 0 6px white,
+    0 0 12px white,    
+    0 0 24px blue;     
+}
+
+#bouton_reservation {
+    opacity: 0.45;
+    position: relative;
+    top: 22px;
+    left: 10px;
+    animation: zoom 2s linear infinite;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+#carroussel {
+    width: 194px;
+    height: 272px;
+    overflow: hidden;
+    position: absolute;
+    left: 44.3%;
+    top: 122.4%;
+    box-shadow: 
+    0 0 3px white,
+    0 0 6px #F2037C,
+    0 0 9px rgb(141, 141, 248);
+}
+
+.img_vr {
+    display: flex;
+    animation-duration: 25s;
+    animation-name: carrousselimg;
+    animation-iteration-count: infinite ;
+    opacity: 0.5;
+}
+
+@keyframes carrousselimg {
+    
+    0% {
+        transform: translateX(0);
+    }
+
+    20% {
+        transform: translateX(-194px);
+    }
+
+    40% {
+        transform: translateX(-388px);
+    }
+
+    60% {
+        transform: translateX(-582px);
+    }
+
+    80% {
+        transform: translateX(-776px)
+    }
+    
+    100% {
+        transform: translateX(0);
+    }
+}

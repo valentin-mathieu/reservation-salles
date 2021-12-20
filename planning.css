@@ -1,0 +1,71 @@
+#titre_mois {
+    color: white;
+    font-family: 'Raleway';
+    text-shadow:
+    0 0 2px white,
+    0 0 6px black;
+}
+
+#titreMois {
+    color: rgb(250, 250, 250);
+    font-family: 'Raleway';
+    padding-bottom: 20px;
+}
+
+.fleche {
+    text-decoration: none;
+    color: black;
+    font-family: 'Nova Round';
+   
+}
+
+table {
+    border: 4mm ridge rgba(0, 0, 0, 0.6);
+    opacity: 0.8;
+    width: 60%;
+    margin-bottom: 60px;
+}
+
+thead {
+    color: lightgray;
+    background-color: #292929;
+    font-family:'Raleway'; 
+    text-shadow: 0 0 2px white;
+}
+
+#t_head {
+    padding: 5px 10px 5px 10px;
+}
+
+#plage_h {
+    color: lightgray;
+    background-color: #292929;
+    font-family:'Raleway'; 
+    text-shadow: 0 0 4px white;
+    padding: 5px 10px 5px 10px;
+}
+
+#lienevent {
+    text-decoration: none;
+}
+
+.titreevent {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Nova Round';
+    text-align: center;
+}
+
+.loginevent {
+    color: white; 
+    text-decoration: none;
+    background-color: black;
+    font-family: 'Nova Round';
+    text-align: center;
+}
+
+#empty_td {
+    background-color: white;
+}
+

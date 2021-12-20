@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@100&family=Readex+Pro:wght@200&family=Fredericka+the+Great&family=Padauk&family=Rajdhani:wght@300&display=swap');
+
+/* FOOTER STYLE */
+footer {
+    background-color:#292929;
+    color: white;
+    width:100%;
+    padding-top: 2%;
+    padding-bottom:20px;
+    margin:0;
+}
+
+.footerboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Readex Pro';
+}
+
+.footerleftboxes {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    padding-top: 2%;
+    font-size:105%;
+    color:white;
+}
+
+.footerrighttboxes {
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    justify-content: space-between;
+}
+
+.footersocialboxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top:3%;
+}
+
+.logosocial {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.logoplateforme {
+    width:100%;
+    height:auto;
+    width:80%;
+    border-radius:15%;
+    position: relative;
+    left:65px;
+}
+
+#rdvfoot {
+    position: relative;
+    left:60px;
+    margin-bottom:4%;
+}
+
+.lienfooter {
+    color: #F2037C;
+}
+
+#rdvfoot {
+    position: relative;
+    right:40px;
+    text-align: left;
+}

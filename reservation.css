@@ -1,0 +1,57 @@
+.content {
+    display: flex;
+    flex-direction : row;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 140px;
+    color: white;
+    font-family: 'Nova Round';
+    font-size: 27px;
+}
+
+.titrejourheure {
+    display: flex;
+    flex-direction:column;
+    width:30%;
+    height:100px;
+    margin-right:5%;
+    background-color: #292929;
+}
+
+.boxjourheure {
+    display: flex;
+    flex-direction:row;
+    height:120px;
+}
+
+.boxheure {
+    display: flex;
+    flex-direction:column;
+    width:50%;
+    border:2px solid rgb(255, 255, 255);
+    background-color: #292929;
+}
+
+.boxtitre {
+    border: 2px solid rgb(255, 255, 255);
+    height:80px;
+    background-color: #292929;
+}
+
+.boxjour {
+    border: 2px solid rgb(255, 255, 255);
+    width:50%;
+    background-color: #292929;
+}
+
+.boxdescription {
+    border: 4px double white;
+    width:60%;
+    height:300px;
+    text-align:center;
+    background-color: #292929;
+    padding: 15px 0 5px 0;
+    border-radius: 50px;
+}
+

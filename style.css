@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Raleway:wght@300&family=Raleway+Dots&family=Nova+Round&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url("Assets/index1.jpg");
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.titre {
+    font-family: 'Raleway Dots';
+    font-size: 46px;
+    text-shadow: 
+    0 0 2px white,
+    0 0 6px white,
+    0 0 12px white,    
+    0 0 24px #F2037C;     
+    color: white;
+    margin-top: 0px;
+    padding-top: 4%;
+}
+
+.intro {
+    font-family: 'Raleway Dots';
+    font-size: 40px;
+    color: white;
+    text-shadow: 
+    0 0 2px white,
+    0 0 6px white,
+    0 0 12px white,    
+    0 0 24px blue;     
+}
+
+input {
+    font-family: 'Nova Round';
+    background-color: #292929;
+    color: white;
+    font-size: 22px;
+    border: solid 1px white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 33%;
+    padding: 3px 0px 3px 0px;
+}
+
+textarea{
+    width: 66%;
+    height: 16%;
+    height: fit-content;
+    text-align: center;
+    font-family: 'Nova Round';
+    background-color: #292929;
+    color: white;
+    font-size: 20px;
+    border: solid 1px white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.errform {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: rgb(255, 253, 253);
+    text-shadow: 
+    0 0 2px white,
+    0 0 6px white,
+    0 0 12px white,    
+    0 0 24px blue;
+}
+
+.reglesmodifs {
+
+    font-family: 'Raleway';
+    font-size: 20px;
+    color: rgb(255, 253, 253);
+    text-shadow: 
+    0 0 2px white,
+    0 0 6px white,
+    0 0 12px white,    
+    0 0 24px blue;
+
+
+}
+
+.submitbtn {
+    border: 4px white inset;
+    background-color: #292929;
+    font-family: 'Bakbak One';
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px 100px / 120px;
+    cursor: pointer;
+}
+
+.reglesmodifs {
+    color: white;
+}
